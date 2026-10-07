@@ -1,0 +1,36 @@
+# Version binaries belong on GitHub Releases, not in git.
+*.exe
+*.zip
+*.dll
+*.pdb
+*.cs
+*.csproj
+*.sln
+bin/
+obj/
+downloads/
+PROJECT_STATE.md
+AGENTS.md
+.codex/
+.agents/
+.env*
+# No production update feed or release artifacts before the first public release.
+/manifest.json
+/release-assets.json
+/RELEASE_NOTES.md
+*.7z
+*.rar
+*.msi
+*.nupkg
+*.cfg
+*.log
+*.ps1
+*.cjs
+/tests/
+/artifacts/
+/node_modules/
+/.local/
+/.tools/
+/.vs/
+*.pem
+*.key
